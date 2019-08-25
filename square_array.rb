@@ -10,5 +10,5 @@ def square_array(array)
   array.collect do |arr|
     arr**2
   end
-  puts arr
+  return arr
 end
