@@ -8,7 +8,6 @@
 
 def square_array(array)
   new_array=[]
-array.collect {|arr| arr**2}
-new_array << arr
-return arr
+array.collect {|arr| new_array<< arr**2}
+return new_array
 end
