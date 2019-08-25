@@ -1,11 +1,8 @@
 def square_array(array)
-  new_array=[]
-  array.each do |array|
-    puts new_array << array**2
- end
- return new_array
+  new_array =[]
+  array.each do |arr|
+    new_array << arr**2
+  end
+  return new_array
 end
-
-
-
 
